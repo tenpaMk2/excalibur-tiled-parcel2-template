@@ -6,6 +6,6 @@ The template of Excalibur.js-tiled-plugin and Parcel 2.
 
 ## Credits
 
-| item (description) |  author  | URL                      |
-| :----------------: | :------: | :----------------------- |
-|  mapchip graphics  | kenny.nl | <https://www.kenney.nl/> |
+| item (description) |  author   | URL                      |
+| :----------------: | :-------: | :----------------------- |
+|  mapchip graphics  | kenney.nl | <https://www.kenney.nl/> |
