@@ -1,0 +1,19 @@
+{
+  "name": "excalibur-tiled-parcel2-template",
+  "type": "module",
+  "scripts": {
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html --dist-dir ./publish --public-url ./"
+  },
+  "dependencies": {
+    "@excaliburjs/plugin-tiled": "0.26.2",
+    "excalibur": "0.26.0"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.6.2",
+    "parcel-reporter-static-files-copy": "^1.3.4",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  }
+}
