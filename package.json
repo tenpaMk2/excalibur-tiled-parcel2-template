@@ -6,8 +6,8 @@
     "build": "parcel build ./src/index.html --dist-dir ./publish --public-url ./"
   },
   "dependencies": {
-    "@excaliburjs/plugin-tiled": "0.26.2",
-    "excalibur": "0.26.0"
+    "@excaliburjs/plugin-tiled": "0.27.0",
+    "excalibur": "0.27.0"
   },
   "devDependencies": {
     "buffer": "^6.0.3",
