@@ -16,5 +16,20 @@ export class GameScene extends Scene {
       actor.acc = Vector.Down.scale(10);
     };
     _engine.add(actor);
+
+    const objects = Resources.tiledmap.data.getExcaliburObjects();
+    const rawSpring = objects[0]?.getObjectByName("spring");
+    if (!rawSpring) throw Error(`cannot find "spring".`);
+    const spring = new Actor({
+      x: rawSpring.x,
+      y: rawSpring.y,
+      width: rawSpring.width,
+      height: rawSpring.height,
+      anchor: new Vector(0, 0),
+      color: Color.Green,
+    });
+    _engine.add(spring);
+
+    // TODO: add spring graphic and logic to green actor.
   }
 }
