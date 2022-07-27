@@ -3,7 +3,7 @@
  <properties>
   <property name="excalibur" type="bool" value="true"/>
  </properties>
- <tileset firstgid="1" source="kenney-pixel-platformer.tsx"/>
+ <tileset firstgid="1" source="../tsx/kenney-pixel-platformer.tsx"/>
  <layer id="1" name="solid" width="30" height="20">
   <properties>
    <property name="solid" type="bool" value="true"/>
